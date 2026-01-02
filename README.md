@@ -41,4 +41,4 @@ index.html - ホームページ
 	thanks.html
 /faq - FAQ
 	index.html
-```/
+```
