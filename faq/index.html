@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+  <title>よくある質問｜スク雑</title>
+  <meta name="description" content="スク雑に関するよくある質問と回答をまとめています。">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .faq-item {
+      max-width: 800px;
+      margin: 0 auto 12px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .faq-question {
+      background: #ffffff;
+      padding: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .faq-answer {
+      background: #fafafa;
+      padding: 16px;
+      display: none;
+    }
+    body.dark .faq-question,
+    body.dark .faq-answer {
+      background: #1e1e1e;
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <h1 class="logo">スク雑</h1>
+  <nav class="nav">
+    <a href="/">トップ</a>
+    <a href="/members/">メンバー</a>
+    <a href="/blog/">ブログ</a>
+    <a href="/contact/">お問い合わせ</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2 style="text-align:center; margin-bottom:24px;">よくある質問</h2>
+
+    <div class="faq-item">
+      <div class="faq-question">スク雑は誰でも参加できますか？</div>
+      <div class="faq-answer">はい。学生・社会人問わず、どなたでも参加できます。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">参加するのにルールはありますか？</div>
+      <div class="faq-answer">誹謗中傷をしないなど、最低限のルールがあります。詳しくは管理者から案内があります。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">勉強以外の雑談もしていいですか？</div>
+      <div class="faq-answer">もちろんOKです。日常の雑談もスク雑の大切な要素です。</div>
+    </div>
+
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© スク雑</p>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+<script>
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      const answer = q.nextElementSibling;
+      answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</body>
+</html>
