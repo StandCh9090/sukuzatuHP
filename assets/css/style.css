@@ -64,7 +64,6 @@ body.dark {
   background: #121212;
   color: #e0e0e0;
 }
-
 body.dark .header,
 body.dark .footer,
 body.dark .card,
@@ -75,4 +74,12 @@ body.dark .blog-highlight li {
 
 body.dark a {
   color: #4facfe;
+}
+
+.dark-toggle {
+  margin-left: 12px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
