@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://【GitHubユーザー名】.github.io/sukuzatsu-site/sitemap.xml
