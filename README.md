@@ -2,7 +2,7 @@
 LINEオープンチャット「Scratch雑談・相談広場」のホームページ。
 
 # URL
-https://cf410638.cloudfree.jp/sukuzatu/
+準備中
 
 # ファイル構成
 ```html:sample
@@ -32,13 +32,9 @@ index.html - ホームページ
 	/js
 		script.js
 /blog - ブログ
-	index.php
-	post.php
-	posts.json
+	index.html
 /contact - お問い合わせ
 	index.html
-	send.php
-	thanks.html
 /faq - FAQ
 	index.html
 ```
